@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this software version and the original dataset when using the results."
+title: "RTBD reproducibility artifact"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - name: "RTBD contributors"
+abstract: "Dataset-specific implementation and verification of resource-temporal bottleneck diagnosis, with completed-case primary analysis and raw-case sensitivity."
