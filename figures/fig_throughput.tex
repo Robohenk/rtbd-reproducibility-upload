@@ -1,0 +1,11 @@
+\begin{tikzpicture}
+\begin{axis}[rtbdaxis,xlabel={AGV fleet size},ylabel={Completed products},
+  xtick={4,5,6},xmin=3.9,xmax=6.1,ymin=1100,ymax=1460,legend pos=south east]
+\addplot[rtbdblue,thick,mark=*] table[x=fleet,y=random,col sep=comma]{\rtbddatadir/throughput_interaction.csv};
+\addlegendentry{Random}
+\addplot[rtbdorange,thick,dashed,mark=square*] table[x=fleet,y=lwt,col sep=comma]{\rtbddatadir/throughput_interaction.csv};
+\addlegendentry{Longest-Waiting-Time}
+\addplot[rtbdgreen,thick,dashdotted,mark=triangle*] table[x=fleet,y=nearest,col sep=comma]{\rtbddatadir/throughput_interaction.csv};
+\addlegendentry{Nearest-Vehicle}
+\end{axis}
+\end{tikzpicture}

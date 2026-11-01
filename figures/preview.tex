@@ -1,0 +1,27 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[a4paper,textwidth=122mm,top=18mm,bottom=18mm]{geometry}
+\input{figures/styles.tex}
+\setlength{\parindent}{0pt}
+\begin{document}
+\begin{center}\large RTBD reproducibility figures\end{center}
+\textbf{Filtered completed-case reference.} The following figures reproduce
+the completed-case input corpus. The raw-data comparison follows.
+\begin{figure}[ht]\centering\input{figures/fig_throughput.tex}
+\caption{Throughput by fleet size and dispatch policy, averaged over the three driving directions.}\end{figure}
+\begin{figure}[ht]\centering\input{figures/fig_landscape.tex}
+\caption{RTBD evidence for all 27 filtered logs. Coincident markers can overlap. Colors show the computed regime; production pressure also requires Welding--Painting joint persistence. Dotted lines show the 0.90 saturation and 0.50 transport-persistence cutoffs.}\end{figure}
+\clearpage
+\textbf{Raw-data sensitivity.} All raw cases are included; unfinished
+intervals are right-censored at the 24-hour observation boundary.
+\renewcommand{\rtbddatadir}{outputs/figure_data/raw}
+\begin{figure}[ht]\centering\input{figures/fig_landscape.tex}
+\caption{Raw-log evidence. Four four-AGV configurations change from transport pressure with low completed-case production exposure to mixed pressure. Throughput is unchanged.}\end{figure}
+\renewcommand{\rtbddatadir}{outputs/figure_data}
+\begin{figure}[ht]\centering\input{figures/fig_blocking.tex}
+\caption{Supplementary filtered-log figure: blocked fleet-capacity time by fleet size and direction. Forward and Backward are both zero.}\end{figure}
+\clearpage
+\textbf{Original native pipeline.}
+\begin{figure}[ht]\centering\input{figures/fig_pipeline.tex}
+\caption{Generic measurement layer and application-specific interpretation, retained from the supplied manuscript.}\end{figure}
+\end{document}

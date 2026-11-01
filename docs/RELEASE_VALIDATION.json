@@ -1,0 +1,53 @@
+{
+  "release": "0.1.0",
+  "validation_date": "2026-11-01",
+  "python": "3.12.10",
+  "semantic_and_workflow_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "full_reproduction": {
+    "passed": true,
+    "corpora": [
+      "filtered",
+      "raw",
+      "raw_retained"
+    ],
+    "runs_per_corpus": 27,
+    "corpus_run_combinations": 81,
+    "service_conservation_checks": 1215,
+    "atomic_conservation_checks": 1977,
+    "maximum_difference_microseconds": 0,
+    "scientific_reference_files_compared": 36,
+    "different_or_missing_files": 0,
+    "measurement_runtime_seconds": 102.439
+  },
+  "bundled_inputs": {
+    "files": 54,
+    "sha256_matches": 54,
+    "sample_exact_first_three_physical_lines": true,
+    "origin": "Supplied Process_Mining_2026-main repository snapshot",
+    "analytical_reproduction_requires_network": false
+  },
+  "public_data": {
+    "doi": "10.4121/12708839.v2",
+    "metadata_retrieved": true,
+    "license": "CC BY 4.0",
+    "fresh_archive_acquisition_verified": false,
+    "limitation": "Public archive downloads returned HTTP 504; public archive bytes were not compared with the supplied snapshot."
+  },
+  "figures": {
+    "engine": "Tectonic 0.17.0",
+    "standalone_compilation": "passed",
+    "preview_tex_from_root_via_stdin": "passed before final caption-only edits",
+    "visual_review": "Three rendered pages inspected; final preview included in figures/preview_standalone.pdf",
+    "pdflatex_latexmk_tested": false
+  },
+  "software_license": "MIT",
+  "software_creator_attribution": "RTBD contributors",
+  "public_repository_url": null,
+  "software_archival_doi": null,
+  "final_paper_identifier": null,
+  "scope": "Filtered completed cases are primary; raw-data sensitivity is included. Historical claim comparisons are not validation of an unspecified final paper.",
+  "ci": "Workflow supplied; remote GitHub Actions execution not claimed."
+}

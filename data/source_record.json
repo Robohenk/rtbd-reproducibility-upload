@@ -1,0 +1,100 @@
+{
+  "id": 12708839,
+  "version": 2,
+  "doi": "10.4121/12708839.v2",
+  "title": "Data underlying the paper: An agent-based process mining architecture for emergent behavior analysis",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "authors": [
+    {
+      "id": 9125683,
+      "full_name": "Rob Bemthuis",
+      "first_name": "Rob",
+      "last_name": "Bemthuis",
+      "is_active": true,
+      "url_name": "Rob_Bemthuis",
+      "orcid_id": "0000-0003-2791-6070"
+    },
+    {
+      "id": 9166352,
+      "full_name": "M. (Martijn) Koot",
+      "first_name": "M. (Martijn)",
+      "last_name": "Koot",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9143-8531"
+    },
+    {
+      "id": 9166355,
+      "full_name": "M.R.K. (Martijn) Mes",
+      "first_name": "M.R.K. (Martijn)",
+      "last_name": "Mes",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-9676-5259"
+    },
+    {
+      "id": 9166358,
+      "full_name": "F.A. (Faiza) Bukhsh",
+      "first_name": "F.A. (Faiza)",
+      "last_name": "Bukhsh",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0001-5978-2754"
+    },
+    {
+      "id": 9166361,
+      "full_name": "M.E. (Maria-Eugenia) Iacob",
+      "first_name": "M.E. (Maria-Eugenia)",
+      "last_name": "Iacob",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-4004-0117"
+    },
+    {
+      "id": 9166364,
+      "full_name": "N. (Nirvana) Meratnia",
+      "first_name": "N. (Nirvana)",
+      "last_name": "Meratnia",
+      "is_active": false,
+      "url_name": "_",
+      "orcid_id": "0000-0002-8379-770X"
+    }
+  ],
+  "files": [
+    {
+      "id": 28325142,
+      "name": "README.txt",
+      "size": 9388,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/28325142",
+      "supplied_md5": "b1db0369b50776f62f34349c1248614c",
+      "computed_md5": "b1db0369b50776f62f34349c1248614c",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 28325148,
+      "name": "RawData.zip",
+      "size": 11653948,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/28325148",
+      "supplied_md5": "fc5661efd3b0b27f63bdefa96d5da179",
+      "computed_md5": "fc5661efd3b0b27f63bdefa96d5da179",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 28325151,
+      "name": "FilteredFiles.zip",
+      "size": 18568303,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/28325151",
+      "supplied_md5": "a1ff20e5a61199e99b10cef1cc603785",
+      "computed_md5": "a1ff20e5a61199e99b10cef1cc603785",
+      "mimetype": "application/zip"
+    }
+  ],
+  "citation": "Bemthuis, Rob; Koot, M. (Martijn); Mes, M.R.K. (Martijn); Bukhsh, F.A. (Faiza); Iacob, M.E. (Maria-Eugenia); Meratnia, N. (Nirvana) (2019). Data underlying the paper: An agent-based process mining architecture for emergent behavior analysis. 4TU.ResearchData. Dataset. https://doi.org/10.4121/12708839.v2"
+}

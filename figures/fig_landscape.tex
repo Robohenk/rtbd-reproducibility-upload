@@ -1,0 +1,21 @@
+\begin{tikzpicture}
+\begin{axis}[rtbdaxis,xlabel={Maximum production utilization},
+  ylabel={Transport-pressure persistence},xmin=0.65,xmax=1.01,ymin=-0.035,ymax=1.04,
+  xtick={0.7,0.8,0.9,1.0},ytick={0,0.25,0.5,0.75,1},
+  legend style={at={(0.5,-0.27)},anchor=north,legend columns=3,font=\scriptsize,draw=none}]
+\addplot[black!40,densely dotted,forget plot] coordinates {(0.9,-0.035) (0.9,1.04)};
+\addplot[black!40,densely dotted,forget plot] coordinates {(0.65,0.5) (1.01,0.5)};
+\addplot[only marks,rtbdorange,mark=*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_transport_4.csv};
+\addplot[only marks,rtbdgreen,mark=*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_mixed_4.csv};
+\addplot[only marks,rtbdgreen,mark=square*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_mixed_5.csv};
+\addplot[only marks,rtbdblue,mark=*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_production_4.csv};
+\addplot[only marks,rtbdblue,mark=square*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_production_5.csv};
+\addplot[only marks,rtbdblue,mark=triangle*,mark size=2.5pt,forget plot] table[x=production_utilization,y=transport_persistence,col sep=comma]{\rtbddatadir/landscape_production_6.csv};
+\addlegendimage{only marks,mark=*,black}\addlegendentry{4 AGVs}
+\addlegendimage{only marks,mark=square*,black}\addlegendentry{5 AGVs}
+\addlegendimage{only marks,mark=triangle*,black}\addlegendentry{6 AGVs}
+\addlegendimage{only marks,mark=*,rtbdorange}\addlegendentry{Transport pressure}
+\addlegendimage{only marks,mark=*,rtbdgreen}\addlegendentry{Mixed pressure}
+\addlegendimage{only marks,mark=*,rtbdblue}\addlegendentry{Production pressure}
+\end{axis}
+\end{tikzpicture}

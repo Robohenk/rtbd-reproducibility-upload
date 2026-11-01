@@ -1,0 +1,10 @@
+corpus,fleet,transport,mixed,production,indeterminate
+filtered,4,5,2,2,0
+filtered,5,0,1,8,0
+filtered,6,0,0,9,0
+raw,4,1,6,2,0
+raw,5,0,1,8,0
+raw,6,0,0,9,0
+raw_retained,4,5,2,2,0
+raw_retained,5,0,1,8,0
+raw_retained,6,0,0,9,0

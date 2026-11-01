@@ -1,0 +1,59 @@
+{
+  "execution": "CPython 3.12.10 with -I -S; full 81 corpus/run combinations",
+  "identical_files": [
+    {
+      "file": "run_summary.csv",
+      "reference_sha256": "b5855021bcbf7613056374a3a959804850ef571a3ae2d319daba3043ce49259e",
+      "fresh_sha256": "b5855021bcbf7613056374a3a959804850ef571a3ae2d319daba3043ce49259e",
+      "identical": true
+    },
+    {
+      "file": "window_evidence.csv",
+      "reference_sha256": "37611ed2cf589931f80cc98efac3ba59e0c3486ae30a55c39283e1aa99bd2095",
+      "fresh_sha256": "37611ed2cf589931f80cc98efac3ba59e0c3486ae30a55c39283e1aa99bd2095",
+      "identical": true
+    },
+    {
+      "file": "resource_evidence.csv",
+      "reference_sha256": "fc5f21c6122575202d5dffd10b2ed98021b14c10a289f116814fa6944d86fcf4",
+      "fresh_sha256": "fc5f21c6122575202d5dffd10b2ed98021b14c10a289f116814fa6944d86fcf4",
+      "identical": true
+    },
+    {
+      "file": "repair_audit.csv",
+      "reference_sha256": "1963468eb6e00572be0d89fb6fc6d4027c1b8f3f3014f0fdb43ffdcdccedbe96",
+      "fresh_sha256": "1963468eb6e00572be0d89fb6fc6d4027c1b8f3f3014f0fdb43ffdcdccedbe96",
+      "identical": true
+    },
+    {
+      "file": "conservation_checks.csv",
+      "reference_sha256": "289b8c49fcd24bfb45c81ce513f922a65107c9a92adfe79ad723101b18b5b65e",
+      "fresh_sha256": "289b8c49fcd24bfb45c81ce513f922a65107c9a92adfe79ad723101b18b5b65e",
+      "identical": true
+    },
+    {
+      "file": "input_manifest.csv",
+      "reference_sha256": "838e5e8d93ed7c793d5282a3aaea70280462a569fc806e41459c9d112a14cf21",
+      "fresh_sha256": "838e5e8d93ed7c793d5282a3aaea70280462a569fc806e41459c9d112a14cf21",
+      "identical": true
+    },
+    {
+      "file": "corpus_comparison.csv",
+      "reference_sha256": "ce267d84f2bd3e7fb0388e48babe5b18676604a8258072856dc32f2b38a9c89d",
+      "fresh_sha256": "ce267d84f2bd3e7fb0388e48babe5b18676604a8258072856dc32f2b38a9c89d",
+      "identical": true
+    },
+    {
+      "file": "matched_contrasts.csv",
+      "reference_sha256": "022d95b7b3f9d6cbda17ce530f4f1b4950766c9978255ab2b736ef557e063971",
+      "fresh_sha256": "022d95b7b3f9d6cbda17ce530f4f1b4950766c9978255ab2b736ef557e063971",
+      "identical": true
+    },
+    {
+      "file": "factorial_decomposition.csv",
+      "reference_sha256": "f3a6d1b495394cfd83f27cb545a7c7ee26a2ca898e361af92dc1f349a2b5252b",
+      "fresh_sha256": "f3a6d1b495394cfd83f27cb545a7c7ee26a2ca898e361af92dc1f349a2b5252b",
+      "identical": true
+    }
+  ]
+}

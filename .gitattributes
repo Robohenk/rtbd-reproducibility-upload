@@ -1,0 +1,2 @@
+# Preserve exact distribution bytes across checkouts, including source data hashes.
+* -text

@@ -1,0 +1,3 @@
+﻿ID	Timestamp	Product	Type	Event	Status	Resource
+1	2019/04/18 00:00:00.0000	.MUs.Console:1	Console	Arrival	Start	.Models.JobShop.Source
+2	2019/04/18 00:00:00.0000	.MUs.Console:1	Console	Arrival	Complete	.Models.JobShop.Source

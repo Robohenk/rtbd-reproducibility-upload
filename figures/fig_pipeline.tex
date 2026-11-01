@@ -1,0 +1,35 @@
+\resizebox{\linewidth}{!}{%
+\begin{tikzpicture}[
+    node distance=3mm,
+    every node/.style={font=\scriptsize,align=center},
+    box/.style={
+        draw,
+        rounded corners,
+        minimum width=20mm,
+        minimum height=9mm,
+        inner sep=1.2mm
+    },
+    interp/.style={
+        draw,
+        dashed,
+        rounded corners,
+        minimum width=20mm,
+        minimum height=9mm,
+        inner sep=1.2mm
+    },
+    arr/.style={-{Latex[length=1.7mm]},thin}
+]
+\node[box] (log) {Lifecycle-rich\\event log};
+\node[box,right=of log] (int) {Queue / occupied-service /\\blocked intervals};
+\node[box,right=of int] (pool) {Operational groups\\and resource pools};
+\node[box,right=of pool] (evid) {Window-level capacity\\and delay evidence};
+\node[box,right=of evid] (set) {Co-dominant sets\\and persistence};
+\node[interp,right=of set] (regime) {Application-specific\\interpretation};
+
+\draw[arr] (log)--(int);
+\draw[arr] (int)--(pool);
+\draw[arr] (pool)--(evid);
+\draw[arr] (evid)--(set);
+\draw[arr] (set)--(regime);
+\end{tikzpicture}
+}

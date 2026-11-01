@@ -1,0 +1,16 @@
+{
+  "status": "measurement_checks_passed",
+  "full_corpus": true,
+  "corpora": [
+    "filtered",
+    "raw",
+    "raw_retained"
+  ],
+  "runs_per_corpus": 27,
+  "service_checks": 1215,
+  "atomic_checks": 1977,
+  "max_conservation_difference_us": 0,
+  "python": "3.12.10",
+  "runtime_seconds": 120.002,
+  "note": "Measurement validation does not resolve manuscript discrepancies; inspect claim ledger and corpus comparison."
+}

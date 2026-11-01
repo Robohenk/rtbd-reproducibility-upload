@@ -1,0 +1,13 @@
+{
+  "window_minutes": 60,
+  "start_hour": 0,
+  "end_hour": 24,
+  "capacity_threshold": 0.90,
+  "codominance_tolerance": 0.02,
+  "delay_threshold": 1.0,
+  "transport_pressure_threshold": 5.0,
+  "transport_persistence": 0.50,
+  "production_saturation": 0.90,
+  "wp_persistence": 0.50,
+  "blocking_modifier": 0.05
+}
